@@ -1,30 +1,109 @@
-/* @import url(https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive); */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Sofadi+One&family=Yellowtail&display=swap');
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+#head {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.date-box {
+  display: flex;
+  justify-content: space-between;
+  color: lightgrey;
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+}
 
 #header-logo {
-display: flex;
+  display: flex;
+  flex-direction: row;
 }
-
-header {
-     padding-top: 10px;
-}
-
 .head-container {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
 
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
 }
 
 #social-icons {
-     display: flex;
-     flex-direction: row;
-     gap: 5px;
+  flex-direction: row;
+  gap: 5px;
 }
 
 #header-text {
-     font-family: 'Cedarville Cursive', cursive;
-     font-size: 35px;
-     text-align: justify;
-     color: black;  
+  font-family: "Yellowtail", cursive;
+  font-weight: bold;
+  text-align: start;
+  font-size: 29px;
+  padding-left: 5px;
+
+  color: black;
+}
+#logo-quote {
+  font-size: 10px;
+  align-content: flex-end;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+
+  padding-left: 9px;
+}
+#img1 {
+  padding-top: 5px;
+  object-fit: fill;
+}
+#list-image {
+  background-image: url("./img/list-bg.png");
+ 
+  display: flex;
+  
+  justify-content: space-evenly;
+  gap: 10px;
+  
+}
+
+ul {
+
+font-family: 'Sofadi One', cursive;
+
+}
+li {
+     list-style-type: square;
+     font-family: 'Sofadi One', cursive;
+     padding-inline-start: 3px;
+     padding-bottom: 12px;
+}
+section {
+     margin-bottom: 25px;
+}
+.vanessa {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ height: 50px;
+}
+#van-name {
+display: flex;
+text-align:left;
+}
+#van-bio {
+display: flex;
+text-align: left;
+align-content: flex-end;
+}
+
+#small-logo {
+     text-align: center;
+  
+}
+footer {
+     text-align: center;
 }
