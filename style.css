@@ -6,21 +6,20 @@ header {
 }
 
 #head {
-     display: block;
-     font-size: 2em;
-     margin-top: 0.67em;
-     margin-bottom: 0em;
-     margin-left: 0;
-     margin-right: 0;
-     font-weight: bold;
-    
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
 .date-box {
-     display: flex;
-     justify-content: space-between;
-     color: lightgrey;
-     font-family: "Barlow", sans-serif;
-     font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+  color: lightgrey;
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
 }
 
 #header-logo {
@@ -29,7 +28,7 @@ header {
 }
 .head-container {
   display: flex;
- 
+
   flex-direction: row;
   justify-content: space-between;
   height: 50px;
@@ -54,10 +53,27 @@ header {
   align-content: flex-end;
   font-family: "Barlow", sans-serif;
   text-align: center;
- 
+
   padding-left: 9px;
 }
 #img1 {
-     padding-top: 5px;
-object-fit: fill;
+  padding-top: 5px;
+  object-fit: fill;
+}
+#list-image {
+  background-image: url("./img/list-bg.png");
+  background-repeat: no-repeat;
+  display: flex;
+  
+  justify-content: space-evenly;
+  gap: 15px;
+  
+}
+
+ul {
+list-style-type: square;
+}
+li {
+     padding-inline-start: 3px;
+     padding-bottom: 12px;
 }
