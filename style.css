@@ -3,18 +3,29 @@
 
 #header-logo {
 display: flex;
+}
+
+header {
+     padding-top: 10px;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    
 
 }
-.logo-container{
+
+#social-icons {
+     display: flex;
      flex-direction: row;
+     gap: 5px;
 }
 
 #header-text {
      font-family: 'Cedarville Cursive', cursive;
+     font-size: 35px;
      text-align: justify;
+     color: black;  
 }
 
-#logo-quote{
-    color: black;
- 
-}

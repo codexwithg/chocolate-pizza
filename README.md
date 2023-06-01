@@ -8,4 +8,3 @@
 https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive
 
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
