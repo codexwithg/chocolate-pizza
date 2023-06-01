@@ -6,12 +6,18 @@ display: flex;
 
 }
 .logo-container{
+     display: flex;
      flex-direction: row;
+     
+     
+     
 }
 
 #header-text {
      font-family: 'Cedarville Cursive', cursive;
      text-align: justify;
+     color: black;
+     
 }
 
 #logo-quote{
