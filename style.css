@@ -1,3 +1,10 @@
+/* @import url(https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive); */
+
+
 header {
-display: flex
+display: flex;
+}
+
+#header-text {
+     font-family: 'Cedarville Cursive', cursive;
 }
