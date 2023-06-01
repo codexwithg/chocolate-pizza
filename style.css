@@ -4,23 +4,25 @@
 #header-logo {
 display: flex;
 
+
 }
-.logo-container{
+/* .logo-container{
+     display: flex;
+     flex-direction: row;  
+     
+} */
+
+#social-icons {
      display: flex;
      flex-direction: row;
-     
-     
-     
+     justify-content: end; 
+     gap: 5px;
 }
 
 #header-text {
      font-family: 'Cedarville Cursive', cursive;
-     text-align: justify;
-     color: black;
-     
-}
+     font-size: 35px;
 
-#logo-quote{
-    
- 
+     text-align: justify;
+     color: black;   
 }
