@@ -1,29 +1,33 @@
-/* @import url(https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive); */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Yellowtail&display=swap');
 
 header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+#header-logo {
+  display: flex;
+}
 .head-container {
   display: flex;
   justify-content: space-between;
 }
 
 #social-icons {
-
   flex-direction: row;
   gap: 5px;
 }
 
 #header-text {
-  font-family: "Cedarville Cursive", cursive;
+  font-family:'Yellowtail', cursive ;
+  font-weight: bold;
   font-size: 35px;
+  padding-left: 5px;
   text-align: justify;
   color: black;
 }
-#header-logo {
-     font-family: ;
+#logo-quote {
+font-size: 10px;
+font-family: 'Barlow', sans-serif;
+padding-left: 5px;
 }
