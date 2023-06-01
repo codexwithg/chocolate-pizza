@@ -4,18 +4,24 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-nav {
-  display: block;
-}
-/* h1 {
+
+#head {
      display: block;
      font-size: 2em;
      margin-top: 0.67em;
-     margin-bottom: 0.67em;
+     margin-bottom: 0em;
      margin-left: 0;
      margin-right: 0;
      font-weight: bold;
-} */
+    
+}
+.date-box {
+     display: flex;
+     justify-content: space-between;
+     color: lightgrey;
+     font-family: "Barlow", sans-serif;
+     font-size: 11px;
+}
 
 #header-logo {
   display: flex;
@@ -23,6 +29,7 @@ nav {
 }
 .head-container {
   display: flex;
+ 
   flex-direction: row;
   justify-content: space-between;
   height: 50px;
@@ -49,4 +56,8 @@ nav {
   text-align: center;
  
   padding-left: 9px;
+}
+#img1 {
+     padding-top: 5px;
+object-fit: fill;
 }
