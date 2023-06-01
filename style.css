@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Yellowtail&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Sofadi+One&family=Yellowtail&display=swap');
 header {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -14,6 +13,7 @@ header {
   margin-right: 0;
   font-weight: bold;
 }
+
 .date-box {
   display: flex;
   justify-content: space-between;
@@ -71,9 +71,16 @@ header {
 }
 
 ul {
-list-style-type: square;
+
+font-family: 'Sofadi One', cursive;
+
 }
 li {
+     list-style-type: square;
+     font-family: 'Sofadi One', cursive;
      padding-inline-start: 3px;
      padding-bottom: 12px;
+}
+section {
+     margin-bottom: 25px;
 }
