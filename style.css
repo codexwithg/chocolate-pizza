@@ -62,11 +62,11 @@ header {
 }
 #list-image {
   background-image: url("./img/list-bg.png");
-  background-repeat: no-repeat;
+ 
   display: flex;
   
   justify-content: space-evenly;
-  gap: 15px;
+  gap: 10px;
   
 }
 
