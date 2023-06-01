@@ -84,3 +84,26 @@ li {
 section {
      margin-bottom: 25px;
 }
+.vanessa {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ height: 50px;
+}
+#van-name {
+display: flex;
+text-align:left;
+}
+#van-bio {
+display: flex;
+text-align: left;
+align-content: flex-end;
+}
+
+#small-logo {
+     text-align: center;
+  
+}
+footer {
+     text-align: center;
+}
