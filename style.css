@@ -1,31 +1,28 @@
 /* @import url(https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive); */
 
-
 #header-logo {
-display: flex;
+  display: flex;
 }
 
 header {
-     padding-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .head-container {
-    display: flex;
-    justify-content: space-between;
-    
-
+  display: flex;
+  justify-content: space-between;
 }
 
 #social-icons {
-     display: flex;
-     flex-direction: row;
-     gap: 5px;
+
+  flex-direction: row;
+  gap: 5px;
 }
 
 #header-text {
-     font-family: 'Cedarville Cursive', cursive;
-     font-size: 35px;
-     text-align: justify;
-     color: black;  
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 35px;
+  text-align: justify;
+  color: black;
 }
-
