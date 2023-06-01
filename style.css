@@ -1,16 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Yellowtail&display=swap");
 
 header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+nav {
+  display: block;
+}
+/* h1 {
+     display: block;
+     font-size: 2em;
+     margin-top: 0.67em;
+     margin-bottom: 0.67em;
+     margin-left: 0;
+     margin-right: 0;
+     font-weight: bold;
+} */
 
 #header-logo {
   display: flex;
+  flex-direction: row;
 }
 .head-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  height: 50px;
 }
 
 #social-icons {
@@ -19,15 +34,19 @@ header {
 }
 
 #header-text {
-  font-family:'Yellowtail', cursive ;
+  font-family: "Yellowtail", cursive;
   font-weight: bold;
-  font-size: 35px;
+  text-align: start;
+  font-size: 29px;
   padding-left: 5px;
-  text-align: justify;
+
   color: black;
 }
 #logo-quote {
-font-size: 10px;
-font-family: 'Barlow', sans-serif;
-padding-left: 5px;
+  font-size: 10px;
+  align-content: flex-end;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+ 
+  padding-left: 9px;
 }
